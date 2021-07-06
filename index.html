@@ -1,122 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>My Personal Assignment-01</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!--Start Navbar -->
     <nav id="navigation">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Items</a></li>
-            <li><a href="#">Teams</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Items</a></li>
+        <li><a href="#">Teams</a></li>
+      </ul>
     </nav>
     <!--End Navbar-->
 
     <!--Start Top section -->
-    <section class="top-banner flexible-container">
+    <section class="top-banner">
+      <div class="container flexible-container align-item-center">
         <div class="half-width">
-            <h1>FOOD <span class="bule-highlight">GALLERY</span></h1>
-            <p>Experience the finest quality food.</p>
-             <a target="_blank" class="link-btn" href="https://www.foodpanda.com.bd/city/dhaka">Order Food</a>
+          <h1>FOOD <span class="bule-highlight">GALLERY</span></h1>
+          <p>Experience the finest quality food.</p>
+          <a
+            target="_blank"
+            class="link-btn"
+            href="https://www.foodpanda.com.bd/city/dhaka"
+            >Order Food</a
+          >
         </div>
 
         <div class="half-width">
-            <img src="images/top-pic.png" alt="top-pic">
+          <img src="images/top-pic.png" alt="top-pic" />
         </div>
+      </div>
     </section>
     <!--End Top Section-->
 
     <!--Start About Section-->
     <section id="about-section">
-        <div class="flexible-container">
-            <div class="half-width">
-                <img id="img-size" src="images/midel-pic.png" alt="">
-            </div>
-    
-            <div class="half-width">
-                <h2>About Me</h2>
-                <p>Would you like thousands of new customers to taste your amazing food? So would we!
-                It's simple: we list your menu online, help you process orders, pick them up, and deliver them to hungry  - in a heartbeat!
-                Interested? Let's start our partnership today!</p>
-                <a target="_blank" class="link-btn" href="">Contact Me</a>
-            </div>
+      <div class="container">
+        <div class="flexible-container align-item-center">
+          <div class="half-width">
+            <img id="img-size" src="images/midel-pic.png" alt="" />
+          </div>
+
+          <div class="half-width">
+            <h2>About Me</h2>
+            <p>
+              Would you like thousands of new customers to taste your amazing
+              food? So would we! It's simple: we list your menu online, help you
+              process orders, pick them up, and deliver them to hungry - in a
+              heartbeat! Interested? Let's start our partnership today!
+            </p>
+            <a target="_blank" class="link-btn" href="">Contact Me</a>
+          </div>
         </div>
+      </div>
     </section>
     <!--End About Section-->
 
     <!--Start Food Items-->
-    <section>
-            <div class="item-text">
-            <h2>My Food Items</h2>
-            <p>Order lunch, fuel for meetings or late-night deliveries to the office. Your favorite foods coming to a desk near you.</p>
+    <section class="fix pt-50 pb-50">
+      <div class="container">
+        <div class="item-text">
+          <h2>My Food Items</h2>
+          <p>
+            Order lunch, fuel for meetings or late-night deliveries to the
+            office. Your favorite foods coming to a desk near you.
+          </p>
+        </div>
+        <div class="quarterWrapper">
+          <div class="quarter-width single-box">
+            <img src="images/cover-1.jpg" alt="" />
+            <div class="box-content">
+              <h4>Healthy Food</h4>
+
+              <p>Food quality is the best.</p>
+              <button class="order-btn">Order</button>
             </div>
-            <div class="quarter-width single-box ">
-                <img src="images/cover-1.jpg" alt="">
-                <h4>Healthy Food</h4>
-                <p>Food quality is the best.</p>  
-                <button class="order-btn">Order</button>
+          </div>
+
+          <div class="quarter-width single-box">
+            <img src="images/cover-4.png" alt="" />
+            <div class="box-content">
+              <h4>Health Food</h4>
+              <p>Food quality is the best.</p>
+              <button class="order-btn">Order</button>
             </div>
-        
-            <div class="quarter-width single-box">
-                <img src="images/cover-4.png" alt="">
-                <h4>Health Food</h4>
-                <p>Food quality is the best.</p>
-                <button class="order-btn">Order</button>
+          </div>
+
+          <div class="quarter-width single-box">
+            <img src="images/cover-5.jpg" alt="" />
+            <div class="box-content">
+              <h4>Vegetable Food</h4>
+              <p>Food quality is the best.</p>
+              <button class="order-btn">Order</button>
             </div>
-        
-            <div class="quarter-width single-box">
-                <img src="images/cover-5.jpg" alt="">
-                <h4>Vegetable Food</h4>
-                 <p>Food quality is the best.</p>
-                 <button class="order-btn">Order</button>
-            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End Food Items-->
-
+    <div style="clear: both"></div>
     <!--Start Our Chef Section-->
-    <section>
+    <section class="fix pt-50 pb-50">
+      <div class="container">
         <div class="item-text">
-            <h2>Meet Our Team</h2>
+          <h2>Meet Our Team</h2>
         </div>
-        
-        <div class="quarter-width single-box ">
-            <img src="images/chef-1.jpg" alt="">
-            <h4 class="bule-highlight">JAMES EVANS</h4>
-            <p>COOK</p>  
+
+        <div class="quarterWrapper">
+          <div class="quarter-width single-box">
+            <img src="images/chef-1.jpg" alt="" />
+            <div class="box-content">
+              <h4 class="bule-highlight">JAMES EVANS</h4>
+              <p>COOK</p>
+            </div>
+          </div>
+
+          <div class="quarter-width single-box">
+            <img src="images/chef-2.jpg" alt="" />
+            <div class="box-content">
+              <h4 class="bule-highlight">KATE HOWSTON</h4>
+              <p>CHEF</p>
+            </div>
+          </div>
+
+          <div class="quarter-width single-box">
+            <img src="images/chef-3.jpg" alt="" />
+            <div class="box-content">
+              <h4 class="bule-highlight">ALBERT DUPNTEL</h4>
+              <p>CHEF</p>
+            </div>
+          </div>
         </div>
-    
-        <div class="quarter-width single-box">
-            <img src="images/chef-2.jpg" alt="">
-            <h4 class="bule-highlight">KATE HOWSTON</h4>
-            <p>CHEF</p>
-        </div>
-    
-        <div class="quarter-width single-box">
-            <img src="images/chef-3.jpg" alt="">
-            <h4 class="bule-highlight">ALBERT DUPNTEL</h4>
-             <p>CHEF</p>
-        </div>
+      </div>
     </section>
     <!--End Out Chef Section-->
-
+    <div style="clear: both"></div>
     <!--Start Footer section-->
     <footer>
-        <h1><span class="bule-highlight">FOOD</span> GALLERY</h1>
-        &copy; Copyright 2021
+      <h1><span class="bule-highlight">FOOD</span> GALLERY</h1>
+      Food Gallery &copy; Copyright 2021
     </footer>
     <!--End Footer Section-->
-</body>
-
+  </body>
 </html>

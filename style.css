@@ -1,6 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #navigation {
@@ -29,12 +38,25 @@ body {
 h1 {
   font-size: 60px;
 }
+.fix {
+  overflow: hidden;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
 .bule-highlight {
   color: rgba(0, 140, 255, 0.644);
 }
 .flexible-container {
   display: flex;
   margin-bottom: 50px;
+}
+
+.align-item-center {
+  align-items: center;
 }
 .half-width {
   width: 50%;
@@ -52,6 +74,8 @@ h1 {
   color: white;
   border-radius: 100px;
   padding: 10px 20px;
+  margin-top: 10px;
+  display: inline-block;
 }
 .order-btn {
   border: none;
@@ -64,30 +88,34 @@ h1 {
 #about-section {
   background-image: url(images/about-bg.jpg);
   background-repeat: no-repeat;
-  height: 700px;
 }
 .item-text {
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 50px;
-  padding-top: 50px;
+}
+.quarterWrapper {
+  display: flex;
+  gap: 30px;
 }
 .quarter-width {
-  width: 29%;
-  float: left;
-  padding-left: 2%;
-  margin-left: 2%;
+  flex: 4;
 }
 .quarter-width img {
   width: 100%;
 }
 .single-box {
   background-color: white;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.65);
-  border-radius: 20px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+.box-content {
+  padding: 25px;
 }
 
 footer {
+  padding-top: 30px;
+  text-align: center;
   background-color: black;
   color: white;
+  height: 200px;
 }
