@@ -16,7 +16,7 @@ body {
   text-align: right;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 50px;
+  padding-right: 100px;
 }
 #navigation ul {
   list-style-type: none;
@@ -27,7 +27,7 @@ body {
   text-decoration: none;
   padding: 18px 20px;
   font-size: 20px;
-  color: gray;
+  color: black;
 }
 #navigation li {
   display: inline;
@@ -38,18 +38,22 @@ body {
 h1 {
   font-size: 60px;
 }
+
 .fix {
   overflow: hidden;
 }
+
 .pt-50 {
   padding-top: 50px;
 }
+
 .pb-50 {
   padding-bottom: 50px;
 }
 .bule-highlight {
   color: rgba(0, 140, 255, 0.644);
 }
+
 .flexible-container {
   display: flex;
   margin-bottom: 50px;
@@ -61,6 +65,10 @@ h1 {
 .half-width {
   width: 50%;
   padding-left: 5%;
+}
+
+.half-width h2 {
+  margin-bottom: 32px;
 }
 .half-width img {
   width: 100%;
@@ -74,7 +82,7 @@ h1 {
   color: white;
   border-radius: 100px;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 111px;
   display: inline-block;
 }
 .order-btn {
@@ -83,6 +91,7 @@ h1 {
   background-color: #5bb5ff;
   padding: 10px 15px;
   margin-bottom: 5px;
+  margin-top: 15px;
   border-radius: 5px;
 }
 #about-section {
